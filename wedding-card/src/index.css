@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-div {
+    max-width: 500px;
+}
+
+.center-div .section-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-div .section-one .one-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-div .section-one .one-top img {
+    width: 100%;
+}
+
+.center-div .section-one .one-top .imgTwo {
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.center-div .section-one .one-top .title {
+    font-family: "Ephesis", cursive;
+    font-size: 2rem;
+    color: rgb(88, 88, 88);
+}
+
+.center-div .section-one .one-top .imgOne {
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.center-div .section-one .one-top .imgThree {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.center-div .section-one .one-top .date {
+    color: rgb(88, 88, 88);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.center-div .section-one .one-top .date-subtext {
+    color: rgb(88, 88, 88);
+}
