@@ -18,7 +18,7 @@ function App() {
                 <section className="section-two">
                     <div className="names">
                         <h1 className="name name-one">
-                            Juwon <br></br> Han Song
+                            Joseph <br></br> Han Song
                         </h1>
                         <h1 className="name and">&</h1>
                         <h1 className="name name-two">Josefina Hilding</h1>
@@ -36,30 +36,32 @@ function App() {
                     <div className="box box-one">
                         <span className="year">2023</span>
                         <p className="date">October 13</p>
-                        <h1 className="title">Wedding Guest BBQ</h1>
+                        <p className="time">17:00</p>
                         <div className="line"></div>
+                        <h1 className="title">Wedding Guest BBQ</h1>
                         <p className="description">
                             We want to hold a BBQ for all the guests before the
                             wedding day!
                         </p>
                         <div className="line"></div>
+                        <p className="where">Where?</p>
                         <p className="address-one">Restenäs 239</p>
                         <p className="address-two">459 93 Ljungskile</p>
-                        <p className="time">17:00</p>
                     </div>
                     <div className="box box-two">
                         <span className="year">2023</span>
                         <p className="date">October 14</p>
-                        <h1 className="title">Wedding Day</h1>
+                        <p className="time">11:00</p>
                         <div className="line"></div>
+                        <h1 className="title">Wedding Day</h1>
                         <p className="description">
                             We want to welcome all of you to our wedding on this
                             day!
                         </p>
                         <div className="line"></div>
+                        <p className="where">Where?</p>
                         <p className="address-one">Herkulesgatan 28</p>
                         <p className="address-two">417 01 Göteborg</p>
-                        <p className="time">11:00</p>
                     </div>
                 </section>
 
@@ -71,15 +73,17 @@ function App() {
                         toward God. Please come join us and bless us in our new
                         beginning!
                     </p>
-                    <p className="sign">Juwon & Josefina</p>
+                    <p className="sign">Joseph & Josefina</p>
                     <div className="line-two"></div>
                 </section>
 
                 <section className="section-five">
                     <a href="https://www.google.com" className="rsvp">
-                        Sign up
+                        Click Me
                     </a>
                 </section>
+
+                <section className="section-six"></section>
             </div>
         </div>
     )
