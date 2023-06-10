@@ -77,7 +77,7 @@ function App() {
 
                 <section className="section-five">
                     <a href="https://www.google.com" className="rsvp">
-                        Click Me
+                        Sign up
                     </a>
                 </section>
             </div>
