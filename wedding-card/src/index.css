@@ -59,13 +59,13 @@
 .center-div .section-one .date {
     letter-spacing: 2px;
     color: #5f5f5f;
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     margin-bottom: 0.5rem;
 }
 
 .center-div .section-one .date-subtext {
     color: #5f5f5f;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: 1px;
 }
 
@@ -88,7 +88,7 @@
     font-family: "Playfair", serif;
     font-weight: 800;
     margin-bottom: 50px;
-    font-style: italic;
+    /* font-style: italic; */
     text-align: center;
 }
 
@@ -149,7 +149,7 @@
 .center-div .section-three .box .year {
     position: absolute;
     top: 3px;
-    left: 10px;
+    right: 10px;
     color: #5f5f5f;
     font-size: 1.2rem;
     font-weight: 700;
@@ -180,7 +180,7 @@
     color: #5f5f5f;
     margin-top: 30px;
     font-size: 1.6rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .center-div .section-three .box .description {
@@ -188,7 +188,7 @@
     padding: 20px 30px;
     font-size: 1.3rem;
     color: #5f5f5f;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 30px;
     margin-bottom: 10px;
 }
@@ -198,7 +198,7 @@
     text-align: center;
     font-size: 1.1rem;
     color: #5f5f5f;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .center-div .section-three .box .address-one {
@@ -206,7 +206,7 @@
     text-align: center;
     font-size: 1.4rem;
     color: #5f5f5f;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .center-div .section-three .box .address-two {
@@ -214,7 +214,7 @@
     text-align: center;
     font-size: 1.4rem;
     color: #5f5f5f;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .center-div .section-four {
@@ -280,6 +280,7 @@
     text-decoration: none;
     color: white;
     font-size: 1.7rem;
+    font-weight: 700;
     /* margin-bottom: 70px; */
 }
 
