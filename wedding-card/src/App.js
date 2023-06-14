@@ -47,6 +47,7 @@ function App() {
                         </p>
                         <div className="line"></div>
                         <p className="where">Where?</p>
+                        <p className="address-title">Restenäs YWAM Base</p>
                         <p className="address-one">Restenäs 239</p>
                         <p className="address-two">459 93 Ljungskile</p>
                     </div>
@@ -62,6 +63,7 @@ function App() {
                         </p>
                         <div className="line"></div>
                         <p className="where">Where?</p>
+                        <p className="address-title">DC Kyrkan</p>
                         <p className="address-one">Herkulesgatan 28</p>
                         <p className="address-two">417 01 Göteborg</p>
                     </div>
