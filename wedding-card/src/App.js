@@ -1,4 +1,5 @@
-import imageOne from "./images/1.png"
+// import imageOne from "./images/1.png"
+import imageOne from "./images/1-1.jpg"
 import imageTwo from "./images/2.png"
 import imageThree from "./images/3.png"
 
@@ -21,22 +22,23 @@ function App() {
                             Joseph <br></br> Han Song
                         </h1>
                         <h1 className="name and">&</h1>
-                        <h1 className="name name-two">Josefina Hilding</h1>
+                        <h1 className="name name-two">
+                            Josefina <br></br> Hilding
+                        </h1>
                     </div>
                     <div className="line"></div>
                     <p className="text">
-                        For this reason a man will leave his father and mother
-                        and be united to his wife, and they will become one
-                        flesh.
+                        Be completely humble and gentle; be patient, bearing
+                        with one another in love.
                     </p>
-                    <p className="verse">Genesis 2:24</p>
+                    <p className="verse">Ephesians 4:2</p>
                 </section>
 
                 <section className="section-three">
                     <div className="box box-one">
                         <span className="year">2023</span>
                         <p className="date">October 13</p>
-                        <p className="time">17:00</p>
+                        <p className="time">17:00 ~ 21:00</p>
                         <div className="line"></div>
                         <h1 className="title">Wedding Guest BBQ</h1>
                         <p className="description">
@@ -51,7 +53,7 @@ function App() {
                     <div className="box box-two">
                         <span className="year">2023</span>
                         <p className="date">October 14</p>
-                        <p className="time">11:00</p>
+                        <p className="time">11:00 ~ 13:00</p>
                         <div className="line"></div>
                         <h1 className="title">Wedding Day</h1>
                         <p className="description">
@@ -67,6 +69,7 @@ function App() {
 
                 <section className="section-four">
                     <div className="line-one"></div>
+                    <p className="heading">Dear Beloved Friends,</p>
                     <p className="message">
                         We would like to begin our journey together with a
                         ceremony to show our commitment toward each other and
@@ -78,8 +81,12 @@ function App() {
                 </section>
 
                 <section className="section-five">
-                    <a href="https://www.google.com" className="rsvp">
-                        Click Me
+                    <a
+                        href="https://forms.gle/46Gj9n9MGJF5Esj57"
+                        className="rsvp"
+                    >
+                        Next
+                        {/* <i class="fa-solid fa-arrow-right"></i> */}
                     </a>
                 </section>
 
