@@ -2,6 +2,7 @@
 import imageOne from "./images/1-1.jpg"
 import imageTwo from "./images/2.png"
 import imageThree from "./images/3.png"
+import imageFour from "./images/4.png"
 
 function App() {
     return (
@@ -36,6 +37,7 @@ function App() {
 
                 <section className="section-three">
                     <div className="box box-one">
+                        <img className="imgFour" src={imageFour} alt="" />
                         <span className="year">2023</span>
                         <p className="date">October 13</p>
                         <p className="time">17:00 ~ 21:00</p>
@@ -52,6 +54,7 @@ function App() {
                         <p className="address-two">459 93 Ljungskile</p>
                     </div>
                     <div className="box box-two">
+                        <img className="imgFour" src={imageFour} alt="" />
                         <span className="year">2023</span>
                         <p className="date">October 14</p>
                         <p className="time">11:00 ~ 13:00</p>
