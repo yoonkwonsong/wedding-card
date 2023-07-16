@@ -35,6 +35,21 @@ function App() {
                     <p className="verse">Ephesians 4:2</p>
                 </section>
 
+                <div className="section-separation"></div>
+
+                <section className="section-four">
+                    <div className="line-one"></div>
+                    <p className="heading">Dear Family & Friends</p>
+                    <p className="message">
+                        We would like to begin our journey together with a
+                        ceremony to show our commitment toward each other and
+                        toward God. Please come join us and bless us in our new
+                        beginning!
+                    </p>
+                    <p className="sign">Joseph & Josefina</p>
+                    <div className="line-two"></div>
+                </section>
+
                 <section className="section-three">
                     <div className="box box-one">
                         <img className="imgFour" src={imageFour} alt="" />
@@ -57,12 +72,11 @@ function App() {
                         <img className="imgFour" src={imageFour} alt="" />
                         <span className="year">2023</span>
                         <p className="date">October 14</p>
-                        <p className="time">11:00 ~ 13:00</p>
+                        <p className="time">14:00 ~ 16:00</p>
                         <div className="line"></div>
                         <h1 className="title">Wedding Day</h1>
                         <p className="description">
-                            We want to welcome all of you to our wedding on this
-                            day!
+                            We want to welcome you to our wedding on this day!
                         </p>
                         <div className="line"></div>
                         <p className="where">Where?</p>
@@ -72,20 +86,12 @@ function App() {
                     </div>
                 </section>
 
-                <section className="section-four">
-                    <div className="line-one"></div>
-                    <p className="heading">Dear Beloved Friends,</p>
-                    <p className="message">
-                        We would like to begin our journey together with a
-                        ceremony to show our commitment toward each other and
-                        toward God. Please come join us and bless us in our new
-                        beginning!
-                    </p>
-                    <p className="sign">Joseph & Josefina</p>
-                    <div className="line-two"></div>
-                </section>
-
                 <section className="section-five">
+                    <p className="notice-text">
+                        Please click below and let us know if you're coming
+                        before [
+                        <span className="notice-text-bold">August 31</span>].
+                    </p>
                     <a
                         href="https://forms.gle/46Gj9n9MGJF5Esj57"
                         className="rsvp"

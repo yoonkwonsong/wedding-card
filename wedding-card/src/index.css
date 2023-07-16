@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 30px;
+    padding: 25px 30px;
 }
 
 .center-div .section-one img {
@@ -74,12 +74,12 @@
     flex-direction: column;
     align-items: center;
     background-color: #fff6f7;
-    padding: 80px 30px;
+    padding: 100px 30px;
 }
 
 .center-div .section-two .names {
     display: grid;
-    grid-template-columns: 1fr 4rem 1fr;
+    grid-template-columns: 1fr 3.2rem 1fr;
 }
 
 .center-div .section-two .names .name {
@@ -109,10 +109,10 @@
     text-align: center;
     font-family: "Playfair", serif;
     font-weight: 600;
-    padding: 0 10px;
+    padding: 0 20px;
     margin-top: 50px;
-    margin-bottom: 70px;
-    line-height: 30px;
+    margin-bottom: 60px;
+    line-height: 40px;
     color: #5f5f5f;
 }
 
@@ -129,7 +129,7 @@
 .center-div .section-three {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 50px;
+    gap: 110px;
     /* flex-direction: column; */
     /* align-items: center; */
     padding: 90px 30px;
@@ -137,7 +137,7 @@
 
 .center-div .section-three .box {
     position: relative;
-    padding: 60px 10px;
+    padding: 80px 10px;
     background-color: #fff6f7;
     display: flex;
     flex-direction: column;
@@ -232,12 +232,16 @@
     font-weight: 500;
 }
 
+.section-separation {
+    height: 70px;
+}
+
 .center-div .section-four {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    background-color: #fff6f7;
-    padding: 80px 30px;
+    /* background-color: #fff6f7; */
+    padding: 0 30px;
     font-family: "Playfair", serif;
 }
 
@@ -245,36 +249,38 @@
     align-self: center;
     width: 130px;
     height: 2px;
-    background-color: #ffb1b1;
+    /* background-color: #ffb1b1; */
     border-radius: 70%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .center-div .section-four .line-two {
     align-self: center;
     width: 130px;
     height: 2px;
-    background-color: #ffb1b1;
+    /* background-color: #ffb1b1; */
     border-radius: 70%;
     margin-bottom: 10px;
 }
 
 .center-div .section-four .heading {
-    padding: 0 10px;
-    font-size: 1.3rem;
+    padding: 0 20px;
+    font-size: 1.6rem;
     color: #5f5f5f;
     font-weight: 900;
     line-height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: start;
 }
 
 .center-div .section-four .message {
-    padding: 0 20px;
+    padding: 0 40px;
     font-size: 1.3rem;
     color: #5f5f5f;
     font-weight: 700;
     line-height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    text-align: end;
 }
 
 .center-div .section-four .sign {
@@ -283,15 +289,27 @@
     color: #5f5f5f;
     font-weight: 900;
     line-height: 40px;
+    margin-bottom: 30px;
     text-align: end;
-    margin-bottom: 50px;
 }
 
 .center-div .section-five {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 190px 30px;
+    padding: 160px 30px;
+}
+
+.center-div .section-five .notice-text {
+    font-family: "Playfair", serif;
+    text-align: center;
+    padding: 0 40px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.center-div .section-five .notice-text .notice-text-bold {
+    font-weight: 900;
 }
 
 .center-div .section-five .rsvp {
@@ -307,9 +325,9 @@
     font-size: 1.7rem;
     font-weight: 700;
     border-radius: 5px;
-    /* margin-bottom: 70px; */
+    margin-bottom: 50px;
 
-    animation: glow 1400ms infinite;
+    animation: glow 1900ms infinite;
 }
 
 @keyframes glow {
@@ -319,7 +337,7 @@
     }
     30% {
         background-color: #ff0000;
-        box-shadow: 0 0 7px 2px #ff0000;
+        box-shadow: 0 0 3px 1px #ff0000;
     }
     100% {
         background-color: #ff4444;
@@ -347,7 +365,7 @@
 } */
 
 .center-div .section-six {
-    height: 130px;
+    height: 110px;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
