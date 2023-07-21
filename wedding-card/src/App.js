@@ -39,7 +39,7 @@ function App() {
 
                 <section className="section-four">
                     <div className="line-one"></div>
-                    <p className="heading">Dear Family & Friends</p>
+                    <p className="heading">Dear Family & Friends,</p>
                     <p className="message">
                         We would like to begin our journey together with a
                         ceremony to show our commitment toward each other and
@@ -80,7 +80,7 @@ function App() {
                         </p>
                         <div className="line"></div>
                         <p className="where">Where?</p>
-                        <p className="address-title">DC Kyrkan</p>
+                        <p className="address-title">Dream Center Kyrkan</p>
                         <p className="address-one">Herkulesgatan 28</p>
                         <p className="address-two">417 01 Göteborg</p>
                     </div>
